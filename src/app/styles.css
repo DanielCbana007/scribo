@@ -1,0 +1,26 @@
+/* RESET */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FULL SCREEN */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* 🔑 evita scroll */
+}
+
+/* BASE */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f9fafb;
+  /* blanco suave tipo pizarra */
+}
