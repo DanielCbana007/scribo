@@ -1,0 +1,19 @@
+.section_chat {
+    background-color: #E1FBFC;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    top: 90%;
+    left: 94%;
+    display: flex;
+    padding: 0.7rem;
+    box-shadow: 0 0 10px 0 #00000020,
+        0 0 10px 0 #00000020;
+    transition: box-shadow 0.3s ease;
+}
+
+.icon{
+    height: 25px;
+    width: 25px;
+}

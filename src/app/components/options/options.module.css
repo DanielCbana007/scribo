@@ -1,0 +1,26 @@
+.section_options {
+    background-color: #E1FBFC;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    top: 10px;
+    left: 45%;
+    display: flex;
+    padding: 0.7rem;
+    box-shadow: 0 0 10px 0 #00000020,
+        0 0 10px 0 #00000020;
+    transition: box-shadow 0.3s ease;
+}
+
+.section_icons {
+    display: flex;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+    list-style: none;
+    margin: 0 10px;
+}
